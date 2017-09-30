@@ -6,7 +6,7 @@ def fizzbuzz(x)
   elsif (x % 3 && x % 5) == 0
     puts "FizzBuzz"
   else
-    x == nil
+    nil
 end
 
 fizzbuzz(3)
