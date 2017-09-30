@@ -1,13 +1,11 @@
-def fizzbuzz(x)
-  if (x % 3 == 0) == true
+def fizzbuzz(x = 3)
+  if (x % 3 == 0)
     "Fizz"
   elsif (x % 5 == 0) == true
     "Buzz"
   elsif ((x % 3 == 0) && (x % 5 == 0)) == true
     "FizzBuzz"
   else
-    x == false
+    nil
   end
 end
-
-fizzbuzz(3)
