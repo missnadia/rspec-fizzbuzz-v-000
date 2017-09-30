@@ -7,7 +7,6 @@ def fizzbuzz(x)
       x = "FizzBuzz"
   else ((x % 3 == 0) || (x % 5 == 0)) == false
     x = nil
-    end
   end
 end
 
