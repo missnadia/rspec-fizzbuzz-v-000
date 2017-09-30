@@ -7,6 +7,7 @@ def fizzbuzz(x)
     "FizzBuzz"
   else
     x == false
+  end
 end
 
 fizzbuzz(x = 3)
