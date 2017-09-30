@@ -9,4 +9,4 @@ def fizzbuzz(x)
     x == false
 end
 
-fizzbuzz(3)
+fizzbuzz(x = 3)
