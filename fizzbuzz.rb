@@ -1,6 +1,6 @@
 def fizzbuzz(x)
   if x == ((x % 3 == 0) && (x % 5 == 0))
-    x = "FizzBuzz" 
+    x = "FizzBuzz"
   elsif x % 3 == 0
     x = "Fizz"
   elsif x % 5 == 0
