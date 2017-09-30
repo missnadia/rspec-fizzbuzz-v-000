@@ -1,5 +1,5 @@
 def fizzbuzz(x)
-  if x % 3 == 0
+  if ((x % 3 == 0) && (x % 5 != 0)) == true
     "Fizz"
   elsif ((x % 3 != 0) && (x % 5 == 0)) == true
     "Buzz"
