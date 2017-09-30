@@ -1,4 +1,4 @@
-def fizzbuzz(x = 3)
+def fizzbuzz(x)
   if (x % 3 == 0)
     "Fizz"
   elsif (x % 5 == 0) == true
@@ -9,3 +9,7 @@ def fizzbuzz(x = 3)
     nil
   end
 end
+
+fizzbuzz(3)
+fizzbuzz(5)
+fizzbuzz(2)
